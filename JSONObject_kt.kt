@@ -1,26 +1,26 @@
-import org.json.JSONObject
+package org.json
 
-private operator fun JSONObject.set(name: String, value: Boolean) {
+operator fun JSONObject.set(name: String, value: Boolean) {
     this.put(name, value)
 }
 
-private operator fun JSONObject.set(name: String, value: String) {
+operator fun JSONObject.set(name: String, value: String) {
     this.put(name, value)
 }
 
-private operator fun JSONObject.set(name: String, value: Int) {
+operator fun JSONObject.set(name: String, value: Int) {
     this.put(name, value)
 }
 
-private operator fun JSONObject.set(name: String, value: Long) {
+operator fun JSONObject.set(name: String, value: Long) {
     this.put(name, value)
 }
 
-private operator fun JSONObject.set(name: String, value: Double) {
+operator fun JSONObject.set(name: String, value: Double) {
     this.put(name, value)
 }
 
-private operator fun JSONObject.set(name: String, value: Any) {
+operator fun JSONObject.set(name: String, value: Any) {
     this.put(name, value)
 }
 
